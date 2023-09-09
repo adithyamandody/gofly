@@ -9,6 +9,7 @@ import Services from './pages/Services.jsx';
 import Faq from './pages/Faq.jsx';
 import Test from './pages/test.jsx'
 import Form from './pages/Form.jsx';
+import Footer1 from './pages/Footer.jsx'
 
 import Head from 'next/head.js';
 import { Plus_Jakarta_Sans } from 'next/font/google'
@@ -51,6 +52,9 @@ const FlyPage = () => {
       </section>
       <section>
         <Form/>
+      </section>
+      <section>
+        <Footer1/>
       </section>
 
 
