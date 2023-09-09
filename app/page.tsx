@@ -1,4 +1,5 @@
 'use client'
+'use state'
 import React, { useState, useEffect } from 'react';
 import Fly from './pages/Fly.jsx';
 import Navbar from './pages/navbar.jsx';

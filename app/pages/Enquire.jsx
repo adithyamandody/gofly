@@ -15,7 +15,7 @@ const Enquire = ({}) => {
     <section className="flex p-2 bg-white gap-1 ">
       {/* Left side: Images */}
       <div className="w-1/2 flex justify-center pl-100">
-        <Image src={frm} className="max-w-full max-h-full -z-10"/>
+        <Image src={frm} className="max-w-full max-h-full "/>
        </div>
 
       {/* Right side: Text and Button */}
