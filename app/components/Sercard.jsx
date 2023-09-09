@@ -1,10 +1,12 @@
 import ser1 from "../images/ser1.png";
 import Image from "next/image";
+import arrow from "../images/arrowb.png";
+
 export default function Sercard() {
   return (
-    <div>
-      <div className="w-full md:w-1/2 lg:w-1/3 p-2">
-        <div className="bg-white rounded-lg shadow p-0 text-left">
+    <div className="z-0">
+      <div >
+        <div className="bg-white rounded-lg shadow p-0 text-left h-[72vh] ">
           <Image
             src={ser1}
             alt="Service 1"
@@ -12,10 +14,15 @@ export default function Sercard() {
             height={1000}
             className="mx-0 mb-2"
           />
-          <h3 className="text-base font-bold text-left pt-3 pl-4">IELTS Coaching</h3>
-          <div className="max-w-sm pr-5 ">
-          <p className="text-sm text-left text-black text-opacity-70 pt-3 max-w-xl pl-4 pb-5">IELTS is accepted by more government agencies, educational institutions, and professional bodies than any other English-language test.</p>
-          </div>
+          <h3 className="text-base font-bold text-left pt-2 pl-4">IELTS Coaching</h3>
+         
+          <p className="text-[16px] text-left text-[#00002C] text-opacity-70 pt-1 max-w-xl pl-4 pb-2 mr-24">IELTS is accepted by more government agencies, educational institutions, and professional bodies than any other English-language test.</p>
+          
+          <button className="flex  items-center gap-1 px-4 pb-6 pt-1  text-sm leading-none
+     bg-white rounded-full text-[#1174E8] font-bold"> Know more
+        
+        <Image src={arrow} width="15" height={"15"} alt="arrow" className="ml-1 " /> 
+    </button>
         </div>
       </div>
     </div>

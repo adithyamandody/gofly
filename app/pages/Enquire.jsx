@@ -12,16 +12,16 @@ import frm from '../images/fr35.png'
 
 const Enquire = ({}) => {
   return (
-    <section className="flex p-2 bg-white gap-1">
+    <section className="flex p-2 bg-white gap-1 ">
       {/* Left side: Images */}
       <div className="w-1/2 flex justify-center pl-100">
-        <Image src={frm} className="max-w-full max-h-full"/>
+        <Image src={frm} className="max-w-full max-h-full -z-10"/>
        </div>
 
       {/* Right side: Text and Button */}
       <div className="w-1/2 p-20">
-      <p className="text-[#0E64C9] text-sm mb-4 font-bold">Enquire Now</p>
-        <h2 className="font-bold text-4xl md:text-5xl mb-4">Your trusted study<br/>abroad partner</h2>
+      <p className="text-[#0E64C9] text-sm mb-4 font-bold z-10 ">Enquire Now</p>
+        <h2 className="font-bold text-4xl md:text-5xl mb-4 z-10 ">Your trusted study<br/>abroad partner</h2>
         <p className="mb-4">
           IELTS is accepted by more government<br/> agencies, educational institutions, and<br/> professional bodies than any other English-<br/>language test.
         </p>

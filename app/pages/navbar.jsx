@@ -22,7 +22,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const navbarClasses = `fixed top-0 left-0 right-0 z-50 ${
+  const navbarClasses = `fixed top-0 left-0 right-0 z-30 ${
     isScrolled ? 'bg-black h-16 transition-all duration-500' : 'bg-opacity-0 h-20 transition-all duration-500'
   }`;
 
