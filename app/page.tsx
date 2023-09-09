@@ -7,6 +7,7 @@ import Enquire from './pages/Enquire.jsx';
 import Imigration from './pages/Imigration.jsx';
 import Services from './pages/Services.jsx';
 import Faq from './pages/Faq.jsx';
+import Test from './pages/test.jsx'
 
 import Head from 'next/head.js';
 import { Plus_Jakarta_Sans } from 'next/font/google'
@@ -43,6 +44,9 @@ const FlyPage = () => {
       </section>
       <section>
         <Faq/>
+      </section>
+      <section>
+        <Test/>
       </section>
 
 
