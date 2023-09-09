@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
+import arrw from '../images/arrw.png'
 
 const Faq = () => {
   const faqData = [
@@ -31,7 +33,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="flex bg-[#F2F8FF]">
+    <section className="flex bg-[#F2F8FF]  ">
       {/* Left side content */}
       <div className="w-2/3 p-8 pt-32">
       <p className="text-[#0E64C9] text-sm mb-4 font-bold pl-20   ">FAQ</p>
@@ -39,7 +41,13 @@ const Faq = () => {
         <p className="text-semibold mb-4 pl-20 text-black text-opacity-50 pr-80">
         We offer full immigration support to United Kingdom, France and Estonia. 
         </p>
+        <div className=' pl-20'>
+        <button className="flex justify-center items-center gap-1 px-6 py-4 border  text-sm leading-none text-white rounded-full bg-[#0E64C9]" >Know more
+<Image src={arrw} alt="arrow" className="ml-2 rounded-full w-[15px] h-[15px]" /> 
+</button>
+</div>
       </div>
+
 
       {/* Right side FAQ boxes */}
       <div className="w-1/2 p-8 mr-20 my-20">
@@ -55,7 +63,9 @@ const Faq = () => {
                 maxHeight: expanded === index ? '1000px' : '80px',
                 overflow: 'hidden',
               }}
+              
             >
+              
               <div className="flex justify-between items-center">
                 <div className="font-bold">{item.question}</div>
                 <div className="transform transition-transform">
@@ -65,7 +75,9 @@ const Faq = () => {
               {expanded === index && (
                 <div className="mt-2 text-left text-sm text-black text-opacity-50 ">{item.answer}</div>
               )}
+             
             </div>
+            
           ))}
         </div>
       </div>

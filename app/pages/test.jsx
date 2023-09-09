@@ -7,7 +7,7 @@ const Test = () => {
   return (
     
     <section className="bg-[#091F35] flex p-8 h-[70vh] pl-24 relative">
-  <span className="absolute left-20 -top-20">
+  <span className="absolute left-20  -top-12">
     <Image
       src={quo}
       alt="Top Right Image"
