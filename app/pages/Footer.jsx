@@ -28,18 +28,21 @@ const Footer = () => {
             <div className="flex justify-center">
               <Image src={phon} />
               <div className="pt-1">
-                <p className="pl-2 text-xs text-white text-opacity-75">Call us</p>
+                <p className="pl-2 text-xs text-white text-opacity-75">
+                  Call us
+                </p>
                 <p className=" pl-2 text-sm">+91 96450 43216</p>
               </div>
             </div>
             <div className="flex justify-center pt-5 pl-2.5">
               <Image src={phon} />
               <div className="pt-1">
-                <p className="pl-2 text-xs text-white text-opacity-75">Email us</p>
+                <p className="pl-2 text-xs text-white text-opacity-75">
+                  Email us
+                </p>
                 <p className=" pl-2 text-sm">gofly@gmail.com</p>
               </div>
             </div>
-            
           </div>
         </div>
 
@@ -48,7 +51,27 @@ const Footer = () => {
           {/* Social Icons */}
         </div>
       </div>
+      <div className="flex-col px-28 py-20">
+          
+          
+          <hr class=" h-0.5 my-8 border-0 dark:bg-[#2C435F] opacity-70 min-w-fit" />
+          
+        </div>
+        <div className="flex flex-col ">
+          <p className=" px-28 text-sm text-[#EFEFEF] text-opacity-75">© GoFly Education Pvt. Ltd.</p>
+          <div className=" flex px-28 text-xs">
+          <p className="  text-sm text-[#EFEFEF] text-opacity-75">Designed and Developed by </p>
+          
+          <p className=" text-white font-bold text-sm"> &nbsp;  Unicorn Labs</p>
+          </div>
+
+
+        </div>
+      
+
+      
     </footer>
+    
   );
 };
 
