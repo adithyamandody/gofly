@@ -1,5 +1,6 @@
 import Image from "next/image";
 import puli from "../images/pulimol.svg";
+import arrowb from '../images/arrowb.png'
 
 const Form = () => {
   return (
@@ -14,6 +15,14 @@ const Form = () => {
           <hr class="h-px my-8 border-0 dark:bg-white opacity-70  w-96" />
           <p className="text-white text-opacity-70 pt-4">YOUR PHONE NO.</p>
           <hr class="h-px my-8 border-0 dark:bg-white opacity-70  w-96" />
+          <button className="flex  gap-3 px-4 py-3 text-sm leading-none text-[#091F35] rounded-full bg-[#FEBB38] font-bold">
+              Submit
+              <Image
+                src={arrowb}
+                alt="arrow"
+                className="rounded-full w-[10px] h-[15px]"
+              />
+            </button>
         </div>
         <div>
           <Image
