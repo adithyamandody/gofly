@@ -34,3 +34,28 @@
   background-clip: text;
   color: unset;
 }
+
+/* Enquire.module.css */
+
+/* CSS for card carousel */
+.card-carousel {
+  overflow: hidden;
+}
+
+.card-carousel .cards-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card-carousel .card {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-right: 20px; /* Adjust spacing between cards */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .card-carousel .card {
+    margin-right: 0; /* Remove spacing between cards */
+  }
+}
