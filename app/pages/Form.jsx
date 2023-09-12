@@ -7,14 +7,14 @@ const Form = () => {
     <section className="bg-gradient-to-b from-[#1174E9] to-[#0753AD] ">
       <div className="flex justify-between pt-0">
         <div className="flex-col px-20 py-20">
-          <p className=" text-3xl text-white pr-32 font-bold">
+          <p className=" text-xl xl:text-3xl pr-10  text-white xl:pr-32 font-bold">
             Ready to unlock your potential and achieve your desired IELTS score?
             Look no further!
           </p>
           <p className="text-white text-opacity-70 pt-16">YOUR NAME</p>
-          <hr class="h-px my-8 border-0 dark:bg-white opacity-70  w-96" />
+          <hr class="h-px my-8 border-0 dark:bg-white opacity-70 xl:w-96 w-60" />
           <p className="text-white text-opacity-70 pt-4">YOUR PHONE NO.</p>
-          <hr class="h-px my-8 border-0 dark:bg-white opacity-70  w-96" />
+          <hr class="h-px my-8 border-0 dark:bg-white opacity-70 xl:w-96 w-60" />
           <button className="flex  gap-3 px-4 py-3 text-sm leading-none text-[#091F35] rounded-full bg-[#FEBB38] font-bold">
               Submit
               <Image
@@ -25,7 +25,7 @@ const Form = () => {
             </button>
         </div>
         <div>
-          <Image
+        <Image
             src={puli}
             className="pr-32"
             height={1500}

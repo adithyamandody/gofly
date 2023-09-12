@@ -30,7 +30,7 @@ const FlyPage = () => {
         />
       </Head>
       <section>      
-               <Navbar /> 
+            <Navbar /> 
       </section>
       <section id="home">
         <Fly/>

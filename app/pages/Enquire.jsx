@@ -16,7 +16,7 @@ const Enquire = ({}) => {
 
       {/* Right side: Text and Button */}
       <div className="w-full md:w-1/2 p-4">
-        <p className="text-[#0E64C9] text-sm md:text-base font-bold z-10 mb-2">Enquire Now</p>
+        <p className="text-[#0E64C9] text-sm md:text-base font-bold z-10 mb-2 pt-3">Enquire Now</p>
         <h2 className="font-bold text-2xl md:text-4xl mb-4 z-10">Your trusted study<br />abroad partner</h2>
         <p className="text-sm md:text-base mb-4">
           IELTS is accepted by more government<br /> agencies, educational institutions, and<br /> professional bodies than any other English-<br />language test.
