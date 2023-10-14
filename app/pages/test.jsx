@@ -6,17 +6,16 @@ import quo from '../images/quo.svg'
 const Test = () => {
   return (
     
-    <section className="bg-[#091F35] flex p-8 h-[70vh] pl-24 relative">
-  <span className="absolute left-20  -top-14">
+    <section data-section="test" className="bg-[#091F35] flex p-8 h-[70vh] pl-24 relative  ">
+  <div className="absolute left-20 z-10 -top-8">
     <Image
       src={quo}
       alt="Top Right Image"
-      width={150}
-      height={150}
+      className="z-100 aspect-square w-32"
     />
-  </span>
+  </div>
   
-  <div className="flex w-1/2">
+  <div className="flex w-1/2 flex-wrap">
     <div className="flex flex-col justify-center">
       <p className="text-[#FEBB38] text-sm  font-bold">
         TESTIMONIALS

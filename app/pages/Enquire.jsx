@@ -8,10 +8,10 @@ import frm from '../images/fr35.png';
 
 const Enquire = ({}) => {
   return (
-    <section className="flex flex-col-reverse md:flex-row p-2 bg-white gap-4">
+    <section className="flex flex-col-reverse md:flex-row p-2 bg-white gap-4 overflow-x-hidden">
       {/* Left side: Images */}
       <div className="w-full md:w-1/2 flex justify-center">
-        <Image src={frm} alt="Image" className="max-w-full max-h-full" />
+        <Image src={frm} alt="Image" className="" />
       </div>
 
       {/* Right side: Text and Button */}
@@ -27,6 +27,7 @@ const Enquire = ({}) => {
         </button>
       </div>
     </section>
+    
   );
 };
 

@@ -4,7 +4,7 @@ import arrowb from '../images/arrowb.png'
 
 const Form = () => {
   return (
-    <section className="bg-gradient-to-b from-[#1174E9] to-[#0753AD] ">
+    <section className="bg-gradient-to-b from-[#1174E9] to-[#0753AD] overflow-x-hidden">
       <div className="flex justify-between pt-0">
         <div className="flex-col px-20 py-20">
           <p className=" text-xl xl:text-3xl pr-10  text-white xl:pr-32 font-bold">
@@ -27,10 +27,10 @@ const Form = () => {
         <div>
         <Image
             src={puli}
-            className="pr-32"
+            className="pr-32 md:pr-32 xl:pr-32 "
             height={1500}
             width={1500}
-            alt="Your Image"
+            alt="Your Image" 
           />
         </div>
       </div>
