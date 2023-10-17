@@ -6,8 +6,9 @@ import elip from "../images/elip.png";
 
 const Services = () => {
   return (
-    <section className="relative bg-[#E6F1FF] py-16 -z-20 overflow-x-hidden container">
+    <section className="relative w-full bg-[#E6F1FF] py-16 -z-20 overflow-x-hidden ">
       {/* Image in the top-right corner */}
+      <div className="container mx-auto">
       <Image
         src={elip}
         alt="Top Right Image"
@@ -35,6 +36,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };
