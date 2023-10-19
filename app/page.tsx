@@ -33,9 +33,9 @@ const FlyPage = () => {
       <section id="home">
         <Fly/>
       </section>
-      <section>
+      
         <Enquire />
-      </section>
+      
       <section>
         <Imigration/>
       </section>

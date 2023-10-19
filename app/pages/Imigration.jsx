@@ -7,7 +7,7 @@ import arrowb from "../images/arrowb.png";
 
 const Imigration = () => {
   return (
-    <section className="flex flex-wrap md:flex-nowrap bg-[#091F35] text-white p-8 z-20 overflow-x-hidden">
+    <section className="mt-[55rem] flex flex-wrap md:flex-nowrap bg-[#091F35] text-white p-8 z-20 overflow-x-hidden">
       
       <div className="flex flex-row-reverse px-5 ">
         <div className="flex flex-col justify-center mr-7 gap-1">

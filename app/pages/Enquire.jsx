@@ -9,7 +9,10 @@ import enq from '../images/enq.png';
 
 const Enquire = ({}) => {
   return (
-    <section className="container mx-auto flex w-full flex-col-reverse  md:flex-row py-14 bg-white gap-4 overflow-x-hidden items-start">
+    <div className="relative">
+
+    <section className='absolute z-[20] bg-white left-0 right-0'>
+    <div className=" container mx-auto flex w-full flex-col-reverse  md:flex-row py-14 gap-4  items-start">
       {/* Left side: Images */}
       {/* <div className="w-full md:w-1/2"> */}
         <Image src={enq} alt="Image" className="w-full " />
@@ -31,7 +34,9 @@ const Enquire = ({}) => {
           {/* <Image src={arrw} alt="arrow" className="ml-2 rounded-full w-[15px] h-[15px]" /> */}
         </button>
       </div>
+    </div>
     </section>
+    </div>
     
   );
 };

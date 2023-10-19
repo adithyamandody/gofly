@@ -3,6 +3,7 @@ import Button from "../components/Button.jsx";
 import Image from "next/image";
 import rightarrow from "../images/rightarrow.png";
 import ph from "../images/ph.png";
+import Globe from "../components/Globe.jsx"
 
 const Fly = () => {
   const flySectionStyle = {
@@ -25,7 +26,7 @@ const Fly = () => {
       style={flySectionStyle}
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10"
     >
-      <div className="relative container mx-auto  flex flex-col justify-center items-start w-full ">
+      <div className="relative z-[10] container mx-auto  flex flex-col justify-center items-start w-full ">
         <h1 className="text-gradient mt-10 text-5xl md:text-5xl lg:text-6xl font-bold mb-5">
           Go Fly to your <br /> dream career.
         </h1>
@@ -46,6 +47,12 @@ const Fly = () => {
             <button>Contact Us</button>
           </div>
         </div>
+      </div>
+
+      <div className="">
+        
+        <Globe />
+        
       </div>
     </section>
   );
