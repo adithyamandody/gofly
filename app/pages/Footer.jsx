@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../images/logo.png";
+import logo from "../images/footerlogo.png";
 import fb from "../images/facebook.svg";
 import phon from "../images/phon.svg";
 
@@ -9,16 +9,16 @@ const Footer = () => {
     <footer className="bg-[#091828] text-white py-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Left Side - Image */}
-        <div className="pb-4 md:pb-0 text-center md:text-left">
-          <Image src={logo} alt="Company Logo" className="w-52 h-36 md:w-96 md:h-52" />
-          <div className="pl-4 md:pl-32 pb-2">
-            <p>
-              GoFly Education Pvt. Ltd., JAC Tower,
-              <br /> Near Jubilee Mission Roundabout,
-              <br /> Thrissur, Kerala
-            </p>
+       {/* <div className="pb-4 md:pb-0 text-center md:text-left"> */}
+         
+          <div >
+          <Image src={logo} alt="Company Logo"/>
+            <p className="block">GoFly Education Pvt. Ltd., JAC Tower, </p>
+           <p className="block">Near Jubilee Mission Roundabout,</p> 
+             <p className="block"> Thrissur, Kerala</p>
+           
           </div>
-        </div>
+        {/* </div> */}
 
         {/* Middle - Phone Numbers */}
         <div className="text-center md:text-left mb-4 md:mb-0 justify-center md:justify-start">
@@ -50,12 +50,13 @@ const Footer = () => {
       <div className="flex-col md:flex-row justify-between px-4 md:px-28 py-8">
         <hr className="h-0.5 my-2 md:my-0 border-0 dark:bg-[#2C435F] opacity-70 w-full md:w-2/3" />
         <div className="flex flex-col text-center md:text-right justify-center pt-4 pl-4">
-        <p className="text-left text-xs text-[#EFEFEF] text-opacity-75">© GoFly Education Pvt. Ltd.</p>
+        <p className="text-left text-sm text-[#EFEFEF] text-opacity-75">© GoFly Education Pvt. Ltd.</p>
 
-          <div className="flex text-xs">
+          <div className="flex text-sm">
             
-            <p className="text-[#EFEFEF] text-opacity-75">Designed and Developed by</p>
-            <p className="text-white font-bold"> Unicorn Labs</p>
+            <p className="text-[#EFEFEF] text-opacity-75 text-sm">Designed and Developed by
+           <a href="https://zubble.co"> <span className="text-white font-bold pl-1"> zubble.co</span></a>
+            </p>
           </div>
         </div>
       </div>

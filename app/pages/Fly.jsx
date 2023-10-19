@@ -23,7 +23,7 @@ const Fly = () => {
     <section
       id="fly"
       style={flySectionStyle}
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container overflow-x-hidden"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       <div className="relative  flex flex-col justify-center items-start w-full pl-10 md:pl-20 lg:pl-40">
         <h1 className="text-gradient mt-10 text-3xl md:text-5xl lg:text-6xl font-bold">

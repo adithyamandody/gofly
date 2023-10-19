@@ -8,7 +8,7 @@ import frm from '../images/fr35.png';
 
 const Enquire = ({}) => {
   return (
-    <section className="flex flex-col-reverse md:flex-row p-2 bg-white gap-4 overflow-x-hidden">
+    <section className="flex flex-col-reverse md:flex-row p-2 bg-white gap-4 overflow-x-hidden items-center">
       {/* Left side: Images */}
       <div className="w-full md:w-1/2 flex justify-center">
         <Image src={frm} alt="Image" className="" />

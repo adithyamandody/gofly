@@ -42,10 +42,10 @@ const Faq = () => {
     <section className="flex flex-col md:flex-row bg-[#F2F8FF] overflow-x-hidden">
       
       <div className="w-full md:w-2/3 p-8 pt-32">
-        <p className="text-[#0E64C9] text-md mb-4 font-bold md:pl-20 xl:pl-20 pl-14">
+        <p className="text-[#0E64C9] text-md mb-4 font-bold md:pl-20">
           FAQ
         </p>
-        <h2 className="font-bold xl:text-2xl md:text-3xl text-4xl mb-4 pl-14 md:pl-20 xl:pl-20 pr-20">
+        <h2 className="font-bold xl:text-2xl md:text-3xl text-4xl mb-4 pl-14 md:pl-20 xl:pl-20 pr-20 sm:pl-1">
           Frequently asked questions
         </h2>
         <p className="text-md mb-4 md:pl-20 xl:pl-20 pl-14 pr-8 text-black text-opacity-50">

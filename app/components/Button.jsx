@@ -1,6 +1,4 @@
-
 import Image from "next/image";
-
 const Button = ({label, iconURL}) => {
   return (
     <button className="flex justify-center items-center gap-1 px-6 py-4 border  text-sm leading-none
